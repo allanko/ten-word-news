@@ -1,1 +1,1 @@
-worker: dashboardbot.py
+worker: python dashboardbot.py
