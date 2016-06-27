@@ -9,7 +9,7 @@ MY_API_KEY = parser.get('MEDIACLOUD', 'MY_API_KEY')
 mc = mediacloud.api.MediaCloud(MY_API_KEY)
 
 # top ten words of the last 7 days from mediacloud
-sources = 'media_sets_id:1' # us mainstream media
+sources = 'tags_id_media:(8875027 9139487)' # us mainstream media and us top online news
 query = '*'
 
 step = datetime.timedelta(7)
